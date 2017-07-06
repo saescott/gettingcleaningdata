@@ -1,0 +1,101 @@
+UCI Sensor Data Codebook
+Prepared for Coursera “Getting and Cleaning Data” course project
+Steve Escott
+
+The variables for the summarized data in file “x.x” are listed below. 
+
+activity – either one of 6 activities performed during the study. The 6 activities are: 
+1 WALKING
+2 WALKING_UPSTAIRS
+3 WALKING_DOWNSTAIRS
+4 SITTING
+5 STANDING
+6 LAYING 
+
+participant – For the 30 study subjects, each of them are listed with an associated observation set. 
+
++The following variables are summary representations (mean and standard deviation) of measurements, normalized and bounded within [-1,1]. The descriptive measurement name indicates how the measurement relates to the parameters measured and accounted for in each observation.  
++ Triaxial acceleration from the accelerometer (total acceleration) and the estimated body acceleration were measured, and are represented by the word “Body” in the variable name. The sensor acceleration signal, which has gravitational and body motion components, was separated using a Butterworth low-pass filter into body acceleration and gravity (Gravity” in the variable name).
+ + Time and frequency in the variable name each refer to the domain context of the measurement in question.
++ Triaxial (xyz) Angular velocity measured from the gyroscope sensor is indicated by “Gyroscope”. 
++ Magnitude is a calculated value based on further filtration of measurements
+
+timeBodyAccelerator-mean()-X
+timeBodyAccelerator-mean()-Y
+timeBodyAccelerator-mean()-Z
+timeGravityAccelerator-mean()-X
+timeGravityAccelerator-mean()-Y
+timeGravityAccelerator-mean()-Z
+timeBodyAcceleratorJerk-mean()-X
+timeBodyAcceleratorJerk-mean()-Y
+timeBodyAcceleratorJerk-mean()-Z
+timeBodyGyroscope-mean()-X
+timeBodyGyroscope-mean()-Y
+timeBodyGyroscope-mean()-Z
+timeBodyGyroscopeJerk-mean()-X
+timeBodyGyroscopeJerk-mean()-Y
+timeBodyGyroscopeJerk-mean()-Z
+timeBodyAcceleratorMagnitude-mean()
+timeGravityAcceleratorMagnitude-mean()
+timeBodyAcceleratorJerkMagnitude-mean()
+timeBodyGyroscopeMagnitude-mean()
+timeBodyGyroscopeJerkMagnitude-mean()
+frequencyBodyAccelerator-mean()-X
+frequencyBodyAccelerator-mean()-Y
+frequencyBodyAccelerator-mean()-Z
+frequencyBodyAccelerator-meanFreq()-X
+frequencyBodyAccelerator-meanFreq()-Y
+frequencyBodyAccelerator-meanFreq()-Z
+frequencyBodyAcceleratorJerk-mean()-X
+frequencyBodyAcceleratorJerk-mean()-Y
+frequencyBodyAcceleratorJerk-mean()-Z
+frequencyBodyAcceleratorJerk-meanFreq()-X
+frequencyBodyAcceleratorJerk-meanFreq()-Y
+frequencyBodyAcceleratorJerk-meanFreq()-Z
+frequencyBodyGyroscope-mean()-X
+frequencyBodyGyroscope-mean()-Y
+frequencyBodyGyroscope-mean()-Z
+frequencyBodyGyroscope-meanFreq()-X
+frequencyBodyGyroscope-meanFreq()-Y
+frequencyBodyGyroscope-meanFreq()-Z
+frequencyBodyAcceleratorMagnitude-mean()
+frequencyBodyAcceleratorMagnitude-meanFreq()
+frequencyBodyBodyAcceleratorJerkMagnitude-mean()
+frequencyBodyBodyAcceleratorJerkMagnitude-meanFreq()
+frequencyBodyBodyGyroscopeMagnitude-mean()
+frequencyBodyBodyGyroscopeMagnitude-meanFreq()
+frequencyBodyBodyGyroscopeJerkMagnitude-mean()
+frequencyBodyBodyGyroscopeJerkMagnitude-meanFreq()
+timeBodyAccelerator-std()-X
+timeBodyAccelerator-std()-Y
+timeBodyAccelerator-std()-Z
+timeGravityAccelerator-std()-X
+timeGravityAccelerator-std()-Y
+timeGravityAccelerator-std()-Z
+timeBodyAcceleratorJerk-std()-X
+timeBodyAcceleratorJerk-std()-Y
+timeBodyAcceleratorJerk-std()-Z
+timeBodyGyroscope-std()-X
+timeBodyGyroscope-std()-Y
+timeBodyGyroscope-std()-Z
+timeBodyGyroscopeJerk-std()-X
+timeBodyGyroscopeJerk-std()-Y
+timeBodyGyroscopeJerk-std()-Z
+timeBodyAcceleratorMagnitude-std()
+timeGravityAcceleratorMagnitude-std()
+timeBodyAcceleratorJerkMagnitude-std()
+timeBodyGyroscopeMagnitude-std()
+timeBodyGyroscopeJerkMagnitude-std()
+frequencyBodyAccelerator-std()-X
+frequencyBodyAccelerator-std()-Y
+frequencyBodyAccelerator-std()-Z
+frequencyBodyAcceleratorJerk-std()-X
+frequencyBodyAcceleratorJerk-std()-Y
+frequencyBodyAcceleratorJerk-std()-Z
+frequencyBodyGyroscope-std()-X
+frequencyBodyGyroscope-std()-Y
+frequencyBodyGyroscope-std()-Z
+frequencyBodyAcceleratorMagnitude-std()
+frequencyBodyBodyAcceleratorJerkMagnitude-std()
+frequencyBodyBodyGyroscopeMagnitude-std()
+frequencyBodyBodyGyroscopeJerkMagnitude-std()
