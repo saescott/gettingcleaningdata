@@ -20,7 +20,6 @@ if (!getwd() == "./getclnprojectfiles") {
 rm(list = ls(all = TRUE))
 
 ## Load required packages
-library(plyr) # loads plyr before dplyr 
 library(data.table)
 library(dplyr)
 
